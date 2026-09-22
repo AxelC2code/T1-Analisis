@@ -20,6 +20,9 @@
 *.mod
 *.smod
 
+# Carpeta de configuraciones locales de Visual Studio
+.vs/
+
 # Compiled Static libraries
 *.lai
 *.la
@@ -30,3 +33,27 @@
 *.exe
 *.out
 *.app
+
+
+# Archivos de Visual Studio
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+
+# Archivos de compilación temporales
+*.log
+*.tlog
+*.pdb
+*.idb
+*.ilk
+
+# Carpetas de build
+/[Bb]uild/
+x64/
+Debug/
+Release/
+
+# Archivos de configuración locales
+.vscode/
+*.swp
+*.swo
